@@ -1,0 +1,79 @@
+:root{
+    --primary-color: #454d75;
+    --secondary-color: #e8e9ef;
+}
+
+.darkmode{
+   background-color: var(--primary-color);
+}
+
+.subtitle{
+    font-size: 30px;
+    font-weight: bold;
+    width: 600px;
+}
+
+.back-button{
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    position:absolute;
+    top:40px;
+    right:280px;
+}
+
+.sun-logo{
+    background-color: transparent;
+    position:absolute;
+    size:30px;
+    border: none;
+    top:40px;
+    right:250px;
+    cursor: pointer;
+}
+
+.blog-title{
+    width: 1200px;
+    height: 100px;
+    margin-top: 20px;
+    border:solid 2px;
+    
+}
+
+.title2{
+    width: 1200px;
+    height: 100px;
+    margin-top: 20px;
+    border:solid 2px;
+}
+
+.title3{
+    width: 1200px;
+    height: 100px;
+    margin-top: 20px;
+    border:solid 2px;
+}
+
+.title4{
+    width: 1200px;
+    height: 100px;
+    margin-top: 20px;
+    border:solid 2px;
+}
+
+.title5{
+    width: 1200px;
+    height: 100px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border:solid 2px;
+}
+
+#heart{
+    color: red;
+}
+
+footer{
+    margin-left: 500px;
+}

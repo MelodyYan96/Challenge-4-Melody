@@ -1,0 +1,58 @@
+:root{
+    --primary-color: #454d75;
+    --secondary-color: #e8e9ef;
+}
+
+.darkmode{
+   background-color: var(--primary-color);
+}
+
+
+.blog-logo{
+    display: inline-block;
+    font-weight: 300px;
+    font-size: 30px;
+    color: white;
+    width: 300px;
+    height: 170px;
+    border-radius: 150px;
+    align-items: center;
+    margin-top: 150px;
+    background: linear-gradient(orange, rgb(205, 187, 187));
+    text-align: center;
+    justify-content: end;
+    padding-top: 130px;
+}
+
+.login-form{
+    display: inline-block;
+    margin-left: 100px;
+    margin-top: 120px;
+
+}
+
+
+.question{
+    font-size: larger;
+    font-weight: bolder;
+    margin-left: 150px;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.first-page{
+    display: inline-grid;
+    grid-template-columns: auto auto;
+}
+
+.sun{
+    background-color: transparent;
+    position: absolute;
+    size:30px;
+    border: none;
+    top:80px;
+    right:650px;
+    cursor: pointer;
+}
